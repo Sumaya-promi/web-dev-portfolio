@@ -30,6 +30,7 @@
   font-size: 35px;
   font-weight: bold;
   color: #181818;
+  margin-bottom: 24px;
 }
 .section-description{
   font-size: 18px;
@@ -99,6 +100,7 @@ main section{
     margin-top: 130px;
     margin-bottom: 130px;
 }
+
 /*about styles*/
 .about{
   border-radius: 10px;
@@ -167,14 +169,27 @@ footer{
 .footer-column{
   width: 50%;
 }
+.footer-column p{
+  font-size: 20px;
+  color: #474747;
+}
 
 footer input[type="text"], footer input[type="email"]{
-  height: 64px;
+  height: 40px;
   border-radius: 5px;
   background-color:white;
   width: 100%;
   padding: 10px 20px;
   margin-bottom: 24px;
   border: none;
+
+}
+footer textarea{
+  border: none;
+  background-color: white;
+  width: 100%;
+  padding: 10px 20px;
+   margin-bottom: 24px;
+   border-radius: 5px;
 
 }
